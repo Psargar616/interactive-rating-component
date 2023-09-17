@@ -1,0 +1,80 @@
+.star_img_container{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  hsl(211, 19%, 24%);
+}
+
+.title{
+    color: white;
+    margin: 2rem 0 1rem 0;
+}
+
+.text{
+    color: hsl(217, 12%, 63%);
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.4rem;
+}
+
+.rating_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:2rem ;
+}
+
+.rating{
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  hsl(211, 19%, 24%);
+    color:  hsl(217, 12%, 63%);
+    font-weight: 700;
+
+    
+}
+
+.rating.active{
+    color: white;
+    background: hsl(216, 12%, 54%);
+}
+
+.rating:hover{
+    color: white;
+    background: hsl(25, 97%, 53%);
+}
+
+.submit_btn{
+    
+    text-transform: uppercase;
+    color: white;
+    background: hsl(25, 97%, 53%);
+    font-weight: 700;
+    font-family: inherit;
+    border: 0;
+    outline: 0;
+    border-radius: 25px;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.submit_btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.submit_btn.active{
+    background-color: white;
+   color : hsl(25, 97%, 53%);
+}
