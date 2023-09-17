@@ -26,8 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![ss2](src/ScreenShots/ss2.png)
+
 ![ss1](src/ScreenShots/ss1.png)
+![ss2](src/ScreenShots/ss2.png)
 
 ### Links
 
